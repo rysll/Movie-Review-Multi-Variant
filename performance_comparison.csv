@@ -1,0 +1,4 @@
+Model Variant,Primary Task,Precision,Recall,F1-Score,BLEU,ROUGE-1,ROUGE-L,Perplexity,Avg Epoch (s),Parameters
+BERT (bert-base-uncased),Sentiment Classification,0.8392,0.8367,0.8364,N/A (classification),N/A (classification),N/A (classification),N/A (classification),24.1s,110M (pretrained)
+GPT-2 (distilgpt2),Causal Language Modeling,N/A (generative),N/A (generative),N/A (generative),0.0157,0.2170,0.1159,51.08,26.2s,82M (pretrained)
+Text-GAN (CNN),Adversarial Text Gen,1.0000,0.9800,0.9899,0.0000,0.0006,0.0006,N/A (char-level),0.8s,0.3M (scratch)
